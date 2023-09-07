@@ -1,0 +1,18 @@
+<div class="wrapper">
+  <mat-drawer mode="side" opened>
+    <div class="container">
+      <div class="iconWithTextContainer" (click)="changePage('users')">
+        <mat-icon>person</mat-icon>
+        <p class="text">Users</p>
+      </div>
+      <div class="iconWithTextContainer" (click)="changePage('logins')">
+        <mat-icon>assignment</mat-icon>
+        <p class="text">Logins</p>
+      </div>
+      <div class="logoutContainer" (click)="logout()">
+        <mat-icon>exit_to_app</mat-icon>
+        <p class="text">Logout</p>
+      </div>
+    </div>
+  </mat-drawer>
+</div>

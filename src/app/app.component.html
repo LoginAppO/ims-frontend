@@ -1,0 +1,9 @@
+<div class="wrapper">
+  <app-sidebar *ngIf="token" />
+  <div class="container">
+    <header class="header" *ngIf="token">
+      <h1 class="title">Application</h1>
+    </header>
+    <router-outlet></router-outlet>
+  </div>
+</div>
